@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <!-- Bootstrap Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body style="overflow-x: hidden;">
+  <!-- Side Header -->
+<div class="asidebar">
+   <header id="header">
+          <div class="profile">
+            <img src="img/logo.png" alt="" class="img-fluid rounded-circle">
+            <div class="social-links mt-3 justify-content-around">
+              <a href="index.html" target="__blank" style="color: #5096ff;"><i class="bi bi-columns-gap"></i>Dashboard</a>
+            </div>
+          </div>
+      <div class="accordion" id="regularAccordionRobots">
+
+  <div class="accordion-item">
+    <h2 id="regularHeadingFirst" class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseFirst" aria-expanded="true" aria-controls="regularCollapseFirst">
+        <i class="fa fa-check-square-o" aria-hidden="true"></i> Oppgaver
+      </button>
+    </h2>
+    <div id="regularCollapseFirst" class="accordion-collapse collapse show" aria-labelledby="regularHeadingFirst" data-bs-parent="#regularAccordionRobots">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item"> 
+    <h2 class="accordion-header" id="regularHeadingSecond">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseSecond" aria-expanded="false" aria-controls="regularCollapseSecond">
+       <i class="fa fa-user" aria-hidden="true"></i> Administrasjon
+      </button>
+    </h2>
+    <div id="regularCollapseSecond" class="accordion-collapse collapse" aria-labelledby="regularHeadingSecond" data-bs-parent="#regularAccordionRobots">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+    </div>
+  </div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingThrid">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseThrid" aria-expanded="true" aria-controls="regularCollapseThrid">
+      <i class="bi bi-chat-left-text"></i> Dialog
+    </button>
+  </h2>
+  <div id="regularCollapseThrid" class="accordion-collapse collapse" aria-labelledby="regularHeadingThrid" data-bs-parent="#regularAccordionRobots">
+    <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingForth"> 
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseForth" aria-expanded="false" aria-controls="regularCollapseForth">
+      <i class="bi bi-person-lines-fill"></i> Enheter og eiere
+    </button>
+  </h2>
+  <div id="regularCollapseForth" class="accordion-collapse collapse" aria-labelledby="regularHeadingForth" data-bs-parent="#regularAccordionRobots">
+    <div class="accordion-body">
+        <strong>Eiere</strong>
+        <p style="color:lightblue;">Leiligheter</p>
+      </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingFive"> 
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseFive" aria-expanded="true" aria-controls="regularCollapseFive" style="color:#ba4de7;">
+    <i class="bi bi-buildings"></i> Eiendom
+    </button>
+  </h2>
+  <div id="regularCollapseFive" class="accordion-collapse collapse" aria-labelledby="regularHeadingFive" data-bs-parent="#regularAccordionRobots">
+    <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingSix">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseSix" aria-expanded="false" aria-controls="regularCollapseSix" style="color: orange;">
+      <i class="bi bi-boxes"></i> Leverandorer
+    </button>
+  </h2>
+  <div id="regularCollapseSix" class="accordion-collapse collapse" aria-labelledby="regularHeadingSix" data-bs-parent="#regularAccordionRobots">
+    <div class="accordion-body"> 
+        <strong>This is the second item's accordion body.</strong>
+    </div>
+  </div>
+</div>
+</div>
+<p class="text-muted">Vis alle meny-elementer</p>
+</header>
+</div>
+<!-- asidebar end -->
+  <!-- right section start -->
+<div class="right-bar">
+ <div id="hero">
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+  <div class="container-fluid d-flex">
+    <a class="navbar-brand me-auto ms-4" href="#"><i class="bi bi-text-left"></i></i>(1261) Sameiet Tjuvholmen 510-1</a>
+    <a class="offcanva" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <i class="bi bi-text-left"></i>
+  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+    </button>
+    <div class="me-0"> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="d-flex">
+        <input class="form-control" type="search" placeholder="Sok" aria-label="Search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </form>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <button type="button" class="btn btn-light"><i class="fa fa-exchange" aria-hidden="true"></i>Bytt till klassisk Styret.com</button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="bi bi-signpost-2"></i></i>
+          </a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="#">
+            <picture>
+        <source srcset="img/6.jpg" type="image/svg+xml">
+        <img src="img/6.jpg" class="img-fluid rounded" alt="..." width="25" height="25">
+      </picture><div class="dropdown">
+        <button class="btn btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Ravi Kumawat
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+        </ul>
+      </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+
+</div>
+<!-- tabs section -->
+<section id="tabs-section">
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+      <div class="card p-3 shadow">
+    <h2 class="p-3">Leilighet 101</h2>
+    <nav>
+      <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+        <button class="nav-link active fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Oversikt</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Detaljer</button>
+      </div>
+    </nav>
+    <div class="tab-content p-3" id="nav-tabContent">
+      <div class="d-flex justify-content-between tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="building">
+            <p class="text-muted">Kartplassering</p>
+            <p class="fw-bold">Building 2 - Kjeller</p>
+          </div>
+          <div class="building">
+            <p class="text-muted">Adresse</p>
+            <p class="fw-bold">Testgata 1</p>
+        </div>
+          <div class="building">
+            <p class="text-muted">Husnummer</p>
+          </div>
+          <div class="building">
+            <p style="color:orange;">Areal</p>
+            <p class="fw-bold">25.00</p>
+        </div>
+        <div class="building-btn">
+            <button>Edit</button>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+<!-- Details Card Section -->
+<section id="details-section">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header d-flex">
+           Eiere
+         </div>
+           <div class="card-body">
+            <div class="table-responsive"> 
+              <table class="table table-sm">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Eier fra</th>
+                    <th scope="col">Navn</th>
+                    <th scope="col">Kontaktinfo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td style="color:#55b2d1;">Person5</td>
+                    <td>91607592<br>
+                    person5@styret.com</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td style="color:#55b2d1;">Styreleder Merli</td>
+                    <td>91607592<br>
+                    reidar.merli@gmail.com</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header d-flex">
+           Kontaktpersoner
+         </div>
+           <div class="card-body">
+            <div class="table-responsive"> 
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Navn</th>
+                    <th scope="col">Kontaktinfo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td style="color:#55b2d1;">Styreleder Merli</td>
+                    <td>91607592<br>
+                    reidar.merli@gmail.com</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header d-flex">
+           Leieforhold og bruksovertakelse
+         </div>
+           <div class="card-body">
+            <div class="table-responsive"> 
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Leieperiode</th>
+                    <th scope="col">Navn</th>
+                    <th scope="col">Kontaktinfo</th>
+                  </tr>
+                </thead>
+              </table>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+<!-- Saker -->
+<section id="saker-section">
+  <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <h5 class="card-header">Saker</h5>
+          <button class="align-self-end"><i class="bi bi-plus"></i>Ny Sak</button>
+          <div class="card-body">
+            <div class="table-responsive"> 
+              <table class="table table-sm border">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Saksnummer</th>
+                    <th scope="col">Tittel</th>
+                    <th scope="col">Beskrivelse</th>
+                    <th scope="col">Kategori</th>
+                    <th scope="col">Dato opprettet</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <!-- <th scope="row"></th> -->
+                    <td style="color: #62c8d3;">2020-03</td>
+                    <td>asfaltering</td>
+                    <td>klage fra snomaker som ikke finner snoflak</td>
+                    <td><a href="" class="project-text">prosjekt</a></td>
+                    <td>2020.08.26</td>
+                  </tr>
+                  <tr>
+                    <!-- <th scope="row"></th> -->
+                    <td style="color: #62c8d3;">2016-03</td>
+                    <td>Lys paslatte hele dognet</td>
+                    <td>Leieboer har fult lys staende pa hele dognet, til sjenanse for andre beboere</td>
+                    <td><a href="#" class="klage-text">Klage</a></td>
+                    <td>2016.12.20</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+          </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- Avtaler -->
+<section id="avtaler-section">
+  <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <h5 class="card-header" style="color:orange;">Avtaler</h5>
+          <button class="align-self-end"><i class="bi bi-plus"></i>Ny Avtale</button>
+          <div class="card-body">
+            <div class="table-responsive"> 
+              <table class="table table-sm border">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Avtale</th>
+                    <th scope="col">Fra dato</th>
+                    <th scope="col">Til dato</th>
+                    <th scope="col">Kontaktperson</th>
+                    <th scope="col">Beskrivelse</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <!-- <th scope="row"></th> -->
+                    <td style="color: #62c8d3;">Tilhengerutleie</td>
+                    <td>2020.11.24</td>
+                    <td>2020.12.02</td>
+                    <td><a href="" class="project-text">Styreleder Merli</a></td>
+                    <td>HUng</td>
+                  </tr>
+                  <tr>
+                    <!-- <th scope="row"></th> -->
+                    <td style="color: #62c8d3;">Utleie</td>
+                    <td>2017.08.17</td>
+                    <td class="d-flex">2019.06.01
+                      <a href="#" class="ms-3 klage-text" style="text-shadow: 2px 2px 3px #fd6b6b, 0 0 6px #ff9797, 0 0 12px #ed7f7f, 0 0 22px #73ebca;color: #cb5858;">Arkivert</a>
+                    </td>
+                    <td rowspan="2"><a href="#" class="klage-text">Styreleder Merli</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+          </div>
+        </div>
+     </div>
+  </div>
+</section>
+<!-- footer section -->
+<section id="footer" class="d-flex justify-content-center">
+  <div class="row">
+    <div class="col-sm-6 col-md-12">
+      <ul class="d-flex gap-4">
+        <a href="#"><li>(admin)</li></a>
+        <a href="#"><li>Admin Dashboard</li></a>
+        <a href="#"><li>Kunder og prospekter</li></a>
+        <a href="#"><li>CRM</li></a>
+        <a href="#"><li>Salg FF</li></a>
+        <a href="#"><li>Forretningsforere</li></a>
+        <a href="#"><li>Leverandorer</li></a>
+        <a href="#"><li>Administrasjson</li></a>
+        <a href="#"><li>Logg inn som</li></a>
+
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+<!-- offcanva section -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <header id="header-second">
+          <div class="profile">
+            <img src="img/logo.png" alt="" class="img-fluid rounded-circle">
+            <div class="social-links mt-3 justify-content-around">
+              <a href="#" style="color: #5096ff;"><i class="bi bi-columns-gap"></i>Dashboard</a>
+            </div>
+          </div>
+
+<div class="accordion" id="regularAccordionRobot">
+
+  <div class="accordion-item">
+    <h2 id="HeadingFirst" class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseFirst" aria-expanded="true" aria-controls="CollapseFirst">
+        <i class="fa fa-check-square-o" aria-hidden="true"></i> Oppgaver
+      </button>
+    </h2>
+    <div id="CollapseFirst" class="accordion-collapse collapse show" aria-labelledby="HeadingFirst" data-bs-parent="#regularAccordionRobot">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item"> 
+    <h2 class="accordion-header" id="HeadingSecond">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapseSecond" aria-expanded="false" aria-controls="CollapseSecond">
+       <i class="fa fa-user" aria-hidden="true"></i> Administrasjon
+      </button>
+    </h2>
+    <div id="CollapseSecond" class="accordion-collapse collapse" aria-labelledby="HeadingSecond" data-bs-parent="#regularAccordionRobot">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+    </div>
+  </div>
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingThrid">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseThrid" aria-expanded="true" aria-controls="regularCollapseThrid">
+      <i class="bi bi-chat-left-text"></i> Dialog
+    </button>
+  </h2>
+  <div id="regularCollapseThrid" class="accordion-collapse collapse" aria-labelledby="regularHeadingThrid" data-bs-parent="#regularAccordionRobot">
+    <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingForth"> 
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseForth" aria-expanded="false" aria-controls="regularCollapseForth">
+      <i class="bi bi-person-lines-fill"></i> Enheter og eiere
+    </button>
+  </h2>
+  <div id="regularCollapseForth" class="accordion-collapse collapse" aria-labelledby="regularHeadingForth" data-bs-parent="#regularAccordionRobot">
+    <div class="accordion-body">
+        <strong>Eiere</strong>
+        <p style="color:#55b2d1;">Leiligheter</p>
+      </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingFive"> 
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseFive" aria-expanded="true" aria-controls="regularCollapseFive" style="color:#ba4de7;">
+    <i class="bi bi-buildings"></i> Eiendom
+    </button>
+  </h2>
+  <div id="regularCollapseFive" class="accordion-collapse collapse" aria-labelledby="regularHeadingFive" data-bs-parent="#regularAccordionRobot">
+    <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong>
+      </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="regularHeadingSix">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseSix" aria-expanded="false" aria-controls="regularCollapseSix" style="color: orange;">
+      <i class="bi bi-boxes"></i> Leverandorer
+    </button>
+  </h2>
+  <div id="regularCollapseSix" class="accordion-collapse collapse" aria-labelledby="regularHeadingSix" data-bs-parent="#regularAccordionRobot">
+    <div class="accordion-body"> 
+        <strong>This is the second item's accordion body.</strong>
+    </div>
+  </div>
+</div>
+</div>
+    <p class="text-muted">Vis alle meny-elementer</p>
+</header>
+</div>
+  <!-- Navbar End -->
+<!-- Js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

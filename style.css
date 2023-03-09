@@ -1,0 +1,472 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	overflow-x: hidden ;
+}
+ul li{
+	list-style-type: none;
+}
+.asidebar{
+	width:18%;
+	float: left;
+	height: 100px;
+}
+.right-bar{
+	float: left;
+	width: 82%;
+	background: #f3f3f3;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 18%;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0;
+  background: #fff;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+}
+#header p.text-muted {
+    margin: 90px 28px;
+}
+#header .profile i{
+	margin-right: 25px;
+	color: #5096ff;
+}
+div#accordionExample .accordion-item {
+    border: none;
+    outline: none;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+}
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+}  
+.accordion-button:not(.collapsed) {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#accordionExample .accordion-button i{
+	margin-right: 25px;
+}
+#header .profile .social-links{
+	    margin-left: 30px;
+}
+/*===========accordion css===========*/
+.accordion-item {
+    background-color: #fff;
+    border: none; 
+}
+#regularAccordionRobots .accordion-item button i{
+	margin-right: 25px;
+}
+div#offcanvasExample {
+    width: 300px;
+}
+div#regularAccordionRobots{
+	padding: 0px 10px;
+}
+#header-second p.text-muted {
+    margin: 90px 28px;
+}
+/*============accordion css end================*/
+/*===========main header css=============*/
+nav.navbar.navbar-expand-lg.navbar {
+    border-bottom: 1px solid #ccc;
+
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+	background: #fff;
+}
+.navbar-collapse form{
+	position: relative;
+}
+.navbar-collapse form i{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #56adc1;
+}
+.navbar-collapse ul li button{
+	border:1px solid #ccc;
+}
+.navbar-collapse ul li .dropdown-toggle{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+nav.navbar.navbar-expand-lg.navbar .navbar-brand i{
+	margin-right: 20px;
+}
+nav.navbar.navbar-expand-lg.navbar .navbar-brand:hover{
+	color: #000;
+}
+	
+/*=========== user-section ==============*/
+#user-section img{
+padding: 50px 60px;
+width: 1535px;
+}
+/*============= card section =================*/
+.card{
+	border: none;
+    border-radius: 4px;
+    padding: 15px 15px;
+
+}
+.icon{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #70f1d3;
+	margin-right: 10px;
+}
+.icon i{
+	font-size: 11px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+#card-section{
+	padding: 0px 60px;
+}
+#card-section .card .icon{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #70f1d3;
+	margin-right: 10px;
+}
+#card-section .card .icon i{
+	font-size: 11px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+#card-section .card .text-muted {
+    font-size: 12px;
+}
+#card-section .card .fst-normal{
+    width: 80%;
+    margin: 0 auto;
+}
+#card-section .card .card-header{
+	background: #fff;
+	border: none;
+}
+#card-section .card .icon-color{
+	background: #f5c6aa;
+}
+#card-section .card .third-color{
+	background: #e1cae5;
+}
+.first-row {
+	border-bottom: 1px solid #ccc;
+}
+.card-body .first-row .date{
+	margin: 0 0 0px 8px !important;
+    border-left: 4px solid #fdcfc8;
+    padding: 0px 3px;
+}
+.card-body .first-row .date p{
+	margin: 0;
+}	
+.card-body .first-row .content{
+	border-left: 4px solid #ffb5a4;
+}
+.card-body .first-row .content p{
+	margin: 0 0 8px 5px;
+}
+.card-body .first-row{
+	margin-bottom: 20px;
+}		    
+.last-card{
+	height: 456px !important;
+}
+#footer ul{
+	list-style-type: none;
+}
+section#footer {
+    margin-top: 45px;
+    padding: 25px 20px 10px 20px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+/*=========offcanva css=========*/
+a.offcanva {
+    position: absolute;
+    left: 32px;
+    font-size: 18px;
+}
+header#header-second .social-links{
+    margin-left: 18px;
+}
+header#header-second .social-links a i{
+    margin-right: 25px;
+    color: #5096ff;
+}
+.offcanvas-header .btn-close{
+	margin-left: auto;
+}
+#regularAccordionRobot .accordion-item button i{
+	margin-right: 25px;
+}
+/*=========== sparekonto css ================*/
+section#sparekonto-section {
+    padding: 0px 60px;
+    margin-top: 50px;
+}
+#sparekonto-section .icon-color{
+	color: #48c5e1;
+}
+#sparekonto-section .icon-color i{
+	color: #000;
+}
+section#sparekonto-section .mfl-section .card .card-header {
+    background: #fff;
+    border: none;
+}
+.mfl-section .card{
+	height: 426px;
+}
+.row.border p {
+    margin: 10px 0px;
+}
+/*============= sparekonto css end ===================*/
+/*================ tabs section css ===================*/
+#tabs-section{
+    padding: 0px 60px;
+    margin-top: 50px;
+}
+/*========================================== About section css start ============================================*/
+/*============== tabs section end ====================*/
+#tabs-section .nav-link{
+	color: #000;
+	font-weight: 600;
+	border: none;
+}
+#tabs-section .nav-tabs .nav-link.active{
+  border-bottom: 4px solid #5f88e7 !important;
+  border: none;
+}
+#tabs-section .nav-tabs .nav-link.active:focus-visible{
+	outline: none;
+}
+.building-btn button {
+    border: none;
+    background: orange;
+    padding: 12px 15px;
+    border-radius: 5px;	
+    color: #fff;
+    margin-right: 25px;
+}
+
+/*=============tabs css end===================*/
+#details-section .card{
+		height: 318px;
+		margin-bottom: 30px;
+}
+#details-section .card-body table{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+#details-section .card-body table thead{
+	border-bottom: 1px solid #ccc !important; 
+	height: 40px;
+}
+#details-section .card-body table thead tr th{
+	border: none;
+}
+#details-section .card-body table thead tr th, td{
+	padding-left: 12px;
+}
+#details-section .card-body table tbody tr{
+	border-bottom: 1px solid #ccc;
+}
+/*========== details section css ============*/
+#details-section{
+	 padding: 0px 60px;
+    margin-top: 50px;
+}
+#details-section .card-header {
+    background: #fff;
+    border: none;
+}
+/*============= saker css ================*/
+#saker-section{
+	padding: 0px 60px;
+    margin-top: 50px;
+}
+#saker-section .card-header{
+	background: #fff;
+	border: none;
+}
+#saker-section button{
+	align-items: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #7dd2fb;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 17px;
+}
+#saker-section .card-body .project-text {
+    width: 88px;
+    display: inherit;
+    background: #e3a940;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+#saker-section .card-body .klage-text{
+	width: 88px;
+    display: inherit;
+    background: red;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+#saker-section .card-body table thead th{
+	border-bottom: 1px solid #ccc;
+}
+#saker-section .card-body table thead th, td{
+	padding: 19px !important;
+}
+/*============ Avataler =================*/
+#avtaler-section{
+	padding: 0px 60px;
+    margin-top: 50px;
+}
+#avtaler-section .card-header{
+	background: #fff;
+	border: none;
+}
+#avtaler-section button{
+	align-items: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #7dd2fb;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 17px;
+}
+#avtaler-section .card-body .project-text {
+    width: 150px;
+    display: inherit;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 3px #63efe8, 0 0 6px #97ffdd, 0 0 12px #7fe3ed, 0 0 22px #73ebca;
+    color: #5bb59c;
+    cursor: default;
+}
+#avtaler-section .card-body .klage-text{
+	width: 150px;
+    display: inherit;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 3px #63efe8, 0 0 6px #97ffdd, 0 0 12px #7fe3ed, 0 0 22px #73ebca;
+    color: #5bb59c;
+    cursor: default;
+}
+#avtaler-section .card-body table thead th{
+	border-bottom: 1px solid #ccc;
+}
+#avtaler-section .card-body table thead th, td{
+	padding: 19px !important;
+}
+/*========================================== About section css End ============================================*/
+/*============ ScrollBar Css ===================*/
+::-webkit-scrollbar {
+width: 6px;
+height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: rgb(223 223 223);
+-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.10),inset 0 -1px 0 rgba(0,0,0,0.07);
+visibility: hidden; 
+}
+@media (max-width: 991px) {
+*{
+	font-size: 0.9rem;
+}
+	#header{
+		display: none;
+	}
+	.asidebar{
+		display: none;
+	}
+	.right-bar{
+		width: 100%;
+		float: none;
+	}
+	.card{
+		margin-top: 20px;
+	}
+	nav.navbar.navbar-expand-lg.navbar .container-fluid{
+    display: block !important;
+}
+.navbar-toggler{
+	position: absolute;
+    right: 16px;
+    margin-bottom: 10px;
+}
+#footer ul {
+	display: contents !important;
+}
+.last-card {
+    height: 482px !important;
+}
+#nav-tabContent .tab-pane.active{
+	display: contents !important;
+}
+}
+@media (min-width: 991px){
+	a.offcanva {
+    display: none;
+}
+}
